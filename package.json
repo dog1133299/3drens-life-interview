@@ -2,7 +2,10 @@
   "name": "ruby",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "engines": {
+    "npm": "5.6.0",
+    "node": "8.88.1"
+  },  "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
