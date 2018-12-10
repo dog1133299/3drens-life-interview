@@ -1,0 +1,41 @@
+.bigger,
+.bigger-hover:hover {
+  transition: all .2s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.smaller,
+.smaller-hover:hover {
+  transition: all .2s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.heighten,
+.heighten-hover:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.lower,
+.lower-hover:hover {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.gradient-darken,
+.gradient-darken-hover:hover {
+  background: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(white, white, white, white, rgba(0, 0, 0, 0.1));
+}
+
+.shadow-darken,
+.shadow-darken-hover:hover {
+  box-shadow: inset 0px -96px 76px -53px rgba(0, 0, 0, 0.15);
+}
+
+.shadow-lighten,
+.shadow-lighten-hover:hover {
+  box-shadow: inset 0px 108px 76px -53px rgba(255, 255, 255, 0.7);
+}

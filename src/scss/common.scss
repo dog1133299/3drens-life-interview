@@ -1,0 +1,125 @@
+$ruby-red : #AB2917;
+$ruby-blue : #1E4363;
+$ruby-yellow : #FFB00D;
+
+$ignite: #1E4363 #FCF2CB #FFB00D #FF8926 #AB2917;
+$tea: #CBD9D6 #4A7D4D #D9CBA3 #F2A88C #D98282;
+
+
+@for $i from 1 through 5 {
+
+  .bg-ignite-#{$i},
+  .hover-ignite-#{$i}:hover {
+    background: nth($ignite, $i);
+  }
+
+  .bg-tea-#{$i},
+  .hover-tea-#{$i}:hover {
+    background: nth($tea, $i);
+  }
+
+  .text-ignite-#{$i} {
+    color: nth($ignite, $i);
+  }
+
+  .text-tea-#{$i} {
+    color: nth($tea, $i);
+  }
+}
+
+@for $i from 1 through 5 {
+
+  .ruby-bg-red-#{$i},
+  .ruby-bg-red-hover-#{$i}:hover {
+    background: lighten($ruby-red, $i * 10%);
+
+  }
+
+  .ruby-bg-yellow-#{$i},
+  .ruby-bg-yellow-hover-#{$i}:hover {
+    background: lighten($ruby-yellow, $i * 10%);
+
+  }
+
+  .ruby-bg-blue-#{$i},
+  .ruby-bg-blue-hover-#{$i}:hover {
+    background: lighten($ruby-blue, $i * 10%);
+
+  }
+
+  .ruby-text-red-#{$i},
+  .ruby-text-red-hover-#{$i}:hover {
+    color: lighten($ruby-red, $i * 10%);
+
+  }
+
+  .ruby-text-yellow-#{$i},
+  .ruby-text-yellow-hover-#{$i}:hover {
+    color: lighten($ruby-yellow, $i * 10%);
+
+  }
+
+  .ruby-text-blue-#{$i},
+  .ruby-text-blue-hover-#{$i}:hover {
+    color: lighten($ruby-blue, $i * 10%);
+
+  }
+}
+
+.body {
+  height: 100vh;
+  background: #333;
+  overflow: hidden;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.ruby-rounded {
+  border-radius: 100px;
+}
+
+.noneTextDecoration,
+.noneTextDecoration:hover {
+  text-decoration: none;
+}
+
+.paw {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+
+}
+.character{
+  width:300px;
+}
+.bubble {
+  background: rgba(255, 176, 13,0.8);
+  height: 150px;
+  border: 1px solid white;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  padding: 1.25rem;
+  margin: 0.5rem;
+}
+.bubble2 {
+  background: rgba(51, 153, 255,0.8);
+  color:#fff;
+  height: 150px;
+  border: 1px solid white;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  padding: 1.25rem;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.title{
+  color: white;
+  text-shadow:
+   -2px -2px 2px #000,  
+    2px -2px 2px #000,
+    -2px 2px 2px #000,
+     2px 2px 2px #000;
+}
+.progress{
+  position: absolute;
+  top:0;
+}

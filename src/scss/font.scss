@@ -1,0 +1,15 @@
+/* 字體 */
+
+@for $i from 2 through 5 {
+
+  .notosanstc#{$i*100} {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: ($i*100);
+  }
+
+  .cwtexyen#{$i*100} {
+    font-family: 'cwTeXYen', sans-serif;
+    font-weight: ($i*100);
+  }
+
+}
