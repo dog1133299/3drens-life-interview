@@ -107,3 +107,96 @@ export class Step13 extends Component {
     );
   }
 }
+
+export class Step14 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(24)} className="bg step1 h-100 d-flex animated fadeIn">
+      <BubbleText 
+        text="打打看完你的考券，轉身出去，過了一會兒，三個奇怪的人進來了。"/>
+      </div>
+    );
+  }
+}
+
+export class Step15 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(24)} className="bg step1 h-100 d-flex animated fadeIn">
+      <BubbleText 
+        text="你拿起包包匆匆忙忙地離開了，你被嚇得半死，決定再也不來這裡找工作了。"/>
+      </div>
+    );
+  }
+}
+
+
+export class Step16 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(44)} className="h-100 d-flex justify-content-center align-items-center">
+      <h1 className="text-white animated fadeIn ">一個小時後.....</h1>
+      </div>
+    );
+  }
+}
+
+export class Step17 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(52)} className="bg step1 h-100 d-flex animated fadeIn">
+      <BubbleText 
+        text="你們愉快的結束了談話，離開"/>
+      </div>
+    );
+  }
+}
+
+
+export class Step18 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(53)} className="h-100 d-flex justify-content-center align-items-center">
+      <h1 className="text-white animated fadeIn ">一周後.....</h1>
+      </div>
+    );
+  }
+}
+
+export class Step19 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(54)} className="bg step1 h-100 d-flex justify-content-center align-items-center animated fadeIn">
+      <div className="text-center">
+      <i className="fa fa-envelope-o fa-5x ruby-text-yellow-hover-1  pointer">
+      </i>
+      <h1>你收到了來自三滴人的郵件!</h1>
+      </div>
+      </div>
+    );
+  }
+}
+
+export class Step20 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(54)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
+      <div className="text-center animated zoomIn">
+       jcp3u黑遺憾你錄取
+      </div>
+      </div>
+    );
+  }
+}
+
+export class Step21 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(54)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
+      <div className="text-center animated zoomIn">
+       j恭喜你錄取
+      </div>
+      </div>
+    );
+  }
+}

@@ -1,38 +1,38 @@
 import React, { Component } from 'react';
 
-class Chose02 extends Component {
+class Chose05 extends Component {
   handle1=()=>{
-    this.props.setScore(+5);
-    this.props.setStep(15);
+    this.props.setScore(-3);
+    this.props.setStep(37);
   }
   handle2=()=>{
     this.props.setScore(+3);
-    this.props.setStep(15);
+    this.props.setStep(37);
   }
   handle3=()=>{
-    this.props.setScore(-5);
-    this.props.setStep(15);
+    this.props.setScore(+5);
+    this.props.setStep(37);
   }
   handle4=()=>{
-    this.props.setScore(+7);
-    this.props.setStep(15);
+    this.props.setScore(+10);
+    this.props.setStep(37);
   }
   render() {
     return (
       <div className="bg step1 h-100 d-flex justify-content-center align-items-center">
           <div>
-          <h2 className="text-center title">你決定....</h2>
+          <h2 className="text-center title">劈哩巴拉崩</h2>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle1}>
-            <i className="fa fa-envelope-o"/>&nbsp;唱一段freestyle
+            <i className="fa fa-envelope-o"/>&nbsp;是誰?
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle2}>
-            <i className="fa fa-map-o"/>&nbsp;起來轉圈圈跳個健身操
+            <i className="fa fa-map-o"/>&nbsp;是一個藝人?
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle3}>
-            <i className="fa fa-male"/>&nbsp;低頭瘋狂滑手機
+            <i className="fa fa-male"/>&nbsp;是一個小模?
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle4}>
-            <i className="fa fa-id-badge"/>&nbsp;趴在地上做一點瑜珈
+            <i className="fa fa-id-badge"/>&nbsp;是一個youtuber?
             </button>
           </div>
       </div>
@@ -40,4 +40,4 @@ class Chose02 extends Component {
   }
 }
 
-export default Chose02;
+export default Chose05;

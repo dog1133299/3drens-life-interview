@@ -29,7 +29,7 @@ class Resume extends Component {
                 <tr>
                   <td rowSpan="2">姓名:</td>
                   <td colSpan="2" rowSpan="2">
-                  <input placeholder='大便' name="name" className="p-1 m-1" onChange={this.handleChange}/>
+                  <input placeholder='大便' name="name" className="p-1 m-1" onChange={this.handleChange} autoFocus/>
                   </td>
                   <td colSpan="2">性別</td>
                 </tr>
