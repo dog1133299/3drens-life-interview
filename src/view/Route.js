@@ -21,7 +21,7 @@ import {
   Step21,
 } from '../component/step/TextStep'
 import Resume from '../component/Resume';
-import { Exam1, Exam2, Exam3, Exam4, Exam5 } from '../component/Exam.js';
+import { Exam1, Exam2, Exam3, Exam4, Exam5 } from '../component/Exam';
 import Chose01 from '../component/Chose01';
 import Chose02 from '../component/Chose02';
 import Chose03 from '../component/Chose03';
