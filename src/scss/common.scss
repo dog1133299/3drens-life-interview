@@ -123,3 +123,11 @@ $tea: #CBD9D6 #4A7D4D #D9CBA3 #F2A88C #D98282;
   position: absolute;
   top:0;
 }
+
+.paw-shadow{
+ text-shadow:
+   -2px -2px 2px #fff,  
+    2px -2px 2px #fff,
+    -2px 2px 2px #fff,
+     2px 2px 2px #fff;
+}

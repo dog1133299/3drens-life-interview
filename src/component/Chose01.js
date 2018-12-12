@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Chose01 extends Component {
   render() {
     return (
-      <div className="h-100 d-flex justify-content-center align-items-center">
+      <div className="h-100 bg step5 d-flex justify-content-center align-items-center">
           <div>
-          <h2 className="text-center">如何找到思源樓?</h2>
+          <h2 className="text-center paw-shadow">如何找到思源樓?</h2>
             <button className="mt-4 mx-auto btn btn-primary animated bounceIn d-block w-100" onClick={()=>this.props.setStep(10)}>
             <i className="fa fa-envelope-o"/>&nbsp;自己照著面試通知郵件提示走
             </button>

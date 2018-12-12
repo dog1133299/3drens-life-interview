@@ -5,7 +5,7 @@ export class Step01 extends Component {
   render() {
     return (
       <div onClick={()=>this.props.setStep(2)} className="bg step1 h-100 d-flex animated fadeIn">
-      <BubbleText text="今天是你畢業後第一天 也是失業的第一天"/>
+      <BubbleText text="今天是你失業的第一天，也是你成為無業遊民的第一天。"/>
       </div>
     );
   }
@@ -14,8 +14,8 @@ export class Step01 extends Component {
 export class Step02 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(3)} className="bg step1 h-100 d-flex animated fadeIn">
-      <BubbleText text="你在103上面看見了一間很厲害很神秘很酷炫狂霸跩的公司 三滴人"/>
+      <div onClick={()=>this.props.setStep(3)} className="bg step2 h-100 d-flex animated fadeIn">
+      <BubbleText text="你在087上面看見了一間，很厲害很神秘很酷炫狂霸跩的公司 三滴人。"/>
       </div>
     );
   }
@@ -24,9 +24,9 @@ export class Step02 extends Component {
 export class Step03 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(4)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(4)} className="bg step2 h-100 d-flex">
       <BubbleText 
-        text="懷抱著統一世界的夢想 你決定投遞履歷試試看"/>
+        text="懷抱著不再吃泡麵度日的卑微夢想，你決定投遞履歷試試看。"/>
       </div>
     );
   }
@@ -45,9 +45,9 @@ export class Step05 extends Component {
 export class Step06 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(7)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(7)} className="bg step3 h-100 d-flex animated fadeIn">
       <BubbleText 
-        text="經過了漫長的等待，在你即將放棄的時候,你終於收到了面試通知信, 一定要好好把握這個機會,進入三滴人！"/>
+        text="經過了漫長的等待，在你即將放棄的時候,你終於收到了面試通知信！"/>
       </div>
     );
   }
@@ -56,9 +56,9 @@ export class Step06 extends Component {
 export class Step07 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(8)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(8)} className="bg step4 h-100 d-flex animated fadeIn">
       <BubbleText 
-        text="跟著郵件來到了路口，但裡面的路你卻不知道該怎麼走，這時候你..."/>
+        text="你跟著通知信來面試，來到了附近卻發現你鬼打牆了，這時候你..."/>
       </div>
     );
   }
@@ -164,9 +164,18 @@ export class Step18 extends Component {
 }
 
 export class Step19 extends Component {
+  handleClick=()=>{
+    if (this.props.score>=95) {
+      this.props.setStep(56);
+    }else if(this.props.score>=70){
+      this.props.setStep(55);
+    }else{
+      this.props.setStep(54);
+    }
+  }
   render() {
     return (
-      <div onClick={()=>this.props.setStep(54)} className="bg step1 h-100 d-flex justify-content-center align-items-center animated fadeIn">
+      <div onClick={this.handleClick} className="bg step1 h-100 d-flex justify-content-center align-items-center animated fadeIn">
       <div className="text-center">
       <i className="fa fa-envelope-o fa-5x ruby-text-yellow-hover-1  pointer">
       </i>
@@ -180,7 +189,7 @@ export class Step19 extends Component {
 export class Step20 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(54)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
+      <div onClick={()=>this.props.setStep(63)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
       <div className="text-center animated zoomIn">
        jcp3u黑遺憾你錄取
       </div>
@@ -192,9 +201,20 @@ export class Step20 extends Component {
 export class Step21 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(54)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
+      <div onClick={()=>this.props.setStep(62)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
       <div className="text-center animated zoomIn">
        j恭喜你錄取
+      </div>
+      </div>
+    );
+  }
+}
+export class Step22 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(62)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
+      <div className="text-center animated zoomIn">
+       恭喜!!!!!!!!!!
       </div>
       </div>
     );

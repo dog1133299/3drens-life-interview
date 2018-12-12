@@ -8,9 +8,10 @@ class Container extends Component {
     this.setResume = this.setResume.bind(this);
     this.setAnswer = this.setAnswer.bind(this);
     this.calculate = this.calculate.bind(this);
+    this.ending = this.ending.bind(this);
     this.state = {
       step: 0,
-      score: 30,
+      score: 25,
       hp: 0,
       name: '大便',
       gender: 1,
@@ -37,6 +38,7 @@ class Container extends Component {
     console.log(this.state.score);
   }
   setResume(table) {
+    console.log(table);
     for (var i in table) {
       if (table[i]) {
         this.setState({
@@ -60,10 +62,21 @@ class Container extends Component {
     this.setState({ score: this.state.score + score });
     console.log(score);
   }
+  ending(){
+    var score=0
+    for(var i in this.exam){
+      if (this.exam[i].answer==this.exam[i].user) {
+        score+=5;
+      }
+    }
+    this.setState({ score: this.state.score + score });
+    console.log(score);
+  }
   render() {
     return (
       <div className="body">
         <Route 
+        score={this.state.score}
         step={this.state.step}
         name={this.state.name}
         skill_1={this.state.skill_1}
@@ -79,9 +92,9 @@ class Container extends Component {
 
 
         />
-        <div className="progress w-100">
+        {this.state.step>11&&<div className="progress w-100">
           <div className="progress-bar" style={{width: this.state.score+'%'}}></div>
-        </div>
+        </div>}
       </div>
 
     );

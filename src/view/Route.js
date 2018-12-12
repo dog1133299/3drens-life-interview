@@ -19,9 +19,11 @@ import {
   Step19,
   Step20,
   Step21,
+  Step22,
 } from '../component/step/TextStep';
 import Resume from '../component/Resume';
 import { Exam1, Exam2, Exam3, Exam4, Exam5 } from '../component/Test.js';
+import { GoodEnd, BadEnd} from '../component/End.js';
 import Chose01 from '../component/Chose01';
 import Chose02 from '../component/Chose02';
 import Chose03 from '../component/Chose03';
@@ -126,7 +128,7 @@ class Route extends Component {
       case 34:
         return <Conversation12 setStep={this.props.setStep} name={this.props.name}/>;
       case 35:
-        return <Conversation13 setStep={this.props.setStep} gender={this.props.gender==1?'男生啊...':'女生啊...'}/>;
+        return <Conversation13 setStep={this.props.setStep} gender={this.props.gender} setScore={this.props.setScore}/>;
       case 36: //批拉巴拉崩
         return <Chose05 setStep={this.props.setStep} setScore={this.props.setScore}/>;
       case 37:
@@ -162,19 +164,22 @@ class Route extends Component {
       case 52: //兩周後
         return <Step18 setStep={this.props.setStep}/>;
       case 53: //你收到了來自三滴人的郵件(點開)
-        return <Step19 setStep={this.props.setStep}/>;
+        return <Step19 setStep={this.props.setStep} score={this.props.score}/>;
       case 54: //很遺憾你..(信的內容)
         return <Step20 setStep={this.props.setStep}/>;
       case 55: //很開心你..(信)
         return <Step21 setStep={this.props.setStep}/>;
       case 56: //隱藏結局..(恭喜你!!!)
+        return <Step22 setStep={this.props.setStep}/>;
       case 57: //隱藏結局..(影片?)
       case 58: //隱藏結局1打打
       case 59: //隱藏結局2解咪
       case 60: //隱藏結局31OEO
       case 61: //隱藏結局3人
       case 62: //通關成功 準備上班囉!
+        return <GoodEnd setStep={this.props.setStep}/>;
       case 63: //通關失敗 再回去逛逛103吧
+        return <BadEnd setStep={this.props.setStep}/>;
 
     }
     return (

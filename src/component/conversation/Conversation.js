@@ -188,13 +188,24 @@ export class Conversation12 extends Component {
 }
 
 export class Conversation13 extends Component {
+  componentDidMount(){
+    console.log(this.props.gender);
+    if (this.props.gender==0) {
+      this.props.setScore(+8);
+      this.string='女生啊...';
+    }else{
+      this.props.setScore(-5);
+      this.string='男生啊...';
+    }
+  }
   render() {
+
     return (
       <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(36)}>
         <div>
           <img src="img/jammy01.png" className="character slideInLeft animated"/>
           <Conversation
-            text={'我看看你的履歷，'+this.props.gender+'，那你知道 劈哩巴拉崩 嗎?'}
+            text={ this.props.gender==0?'我看看你的履歷，女生啊...':'我看看你的履歷，男生啊...' +'，那你知道 劈哩巴拉崩 嗎?'}
           />
         </div>
       </div>
