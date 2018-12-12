@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Start from '../component/step/Start'
+import Start from '../component/step/Start';
 import {
   Step01,
   Step02,
@@ -19,9 +19,9 @@ import {
   Step19,
   Step20,
   Step21,
-} from '../component/step/TextStep'
+} from '../component/step/TextStep';
 import Resume from '../component/Resume';
-import { Exam1, Exam2, Exam3, Exam4, Exam5 } from '../component/Exam';
+import { Exam1, Exam2, Exam3, Exam4, Exam5 } from '../component/Test.js';
 import Chose01 from '../component/Chose01';
 import Chose02 from '../component/Chose02';
 import Chose03 from '../component/Chose03';
