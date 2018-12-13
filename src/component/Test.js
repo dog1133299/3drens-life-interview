@@ -12,7 +12,7 @@ export class Exam1 extends Component {
           <table className="mx-auto animated zoomIn"  border="1">
             <tbody>
               <tr>
-                <th className="text-center"><h2>前端試卷</h2></th>
+                <th className="text-center"><h2>三滴人試卷</h2></th>
               </tr>
               <tr>
                 <td>
@@ -48,7 +48,7 @@ export class Exam2 extends Component {
             <table className="mx-auto animated slideInRight"  border="1">
               <tbody>
                 <tr>
-                  <th className="text-center"><h2>前端試卷</h2></th>
+                  <th className="text-center"><h2>三滴人試卷</h2></th>
                 </tr>
                 <tr>
                   <td>
@@ -84,7 +84,7 @@ export class Exam3 extends Component {
             <table className="mx-auto animated slideInRight"  border="1">
               <tbody>
                 <tr>
-                  <th className="text-center"><h2>前端試卷</h2></th>
+                  <th className="text-center"><h2>三滴人試卷</h2></th>
                 </tr>
                 <tr>
                   <td>
@@ -118,16 +118,16 @@ export class Exam4 extends Component {
             <table className="mx-auto animated slideInRight"  border="1">
               <tbody>
                 <tr>
-                  <th className="text-center"><h2>前端試卷</h2></th>
+                  <th className="text-center"><h2>三滴人試卷</h2></th>
                 </tr>
                 <tr>
                   <td>
-                  4) 有一隻熊掉到一個陷阱裡，陷阱深19.617公尺，掉落時間正好2秒，請問熊是什麼顏色的？<br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={1} onChange={this.handleChange}/> 白色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={2} onChange={this.handleChange}/> 棕色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={3} onChange={this.handleChange}/> 黑色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={4} onChange={this.handleChange}/> 黑棕色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={5} onChange={this.handleChange}/> 灰色</label>
+                  4) 今天天氣多雲有雨，氣溫約攝氏20度，冬天的太陽與地面夾角63度，請問從四樓車庫窗戶看出去，阿捨的內褲是什麼顏色的？<br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={1} onChange={this.handleChange}/> 深黑色</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={2} onChange={this.handleChange}/> 粉黃色</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={3} onChange={this.handleChange}/> 粉紅色</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={4} onChange={this.handleChange}/> 藍綠色</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={5} onChange={this.handleChange}/> 淺灰色</label>
                   </td>
                 </tr>
               </tbody>
@@ -154,16 +154,16 @@ export class Exam5 extends Component {
             <table className="mx-auto animated slideInRight"  border="1">
               <tbody>
                 <tr>
-                  <th className="text-center"><h2>前端試卷</h2></th>
+                  <th className="text-center"><h2>三滴人試卷</h2></th>
                 </tr>
                 <tr>
                   <td>
-                  5) 有一隻熊掉到一個陷阱裡，陷阱深19.617公尺，掉落時間正好2秒，請問熊是什麼顏色的？<br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={1} onChange={this.handleChange}/> 白色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={2} onChange={this.handleChange}/> 棕色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={3} onChange={this.handleChange}/> 黑色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={4} onChange={this.handleChange}/> 黑棕色</label><br/>
-                    &nbsp;&nbsp;<label><input type="radio" name="1" value={5} onChange={this.handleChange}/> 灰色</label>
+                  5) 小碗的米粉湯加清蒸肉圓，再點一份滷蛋跟燙青菜，如果我給老闆一百一十五元，老闆要找我多少？<br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={1} onChange={this.handleChange}/> 找給我十塊。</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={2} onChange={this.handleChange}/> 不用找，剛剛好。</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={3} onChange={this.handleChange}/> 我還要再給五塊</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={4} onChange={this.handleChange}/> 找給我五塊。</label><br/>
+                    &nbsp;&nbsp;<label><input type="radio" name="1" value={5} onChange={this.handleChange}/> 我還要再給十塊。</label>
                   </td>
                 </tr>
               </tbody>

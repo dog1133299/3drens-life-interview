@@ -67,7 +67,7 @@ export class Step07 extends Component {
 export class Step09 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(0)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(63)} className="bg step7 h-100 d-flex animated fadeIn">
       <BubbleText 
         text="路人說他不是這裡的人，他也不知道路，你亂走一通迷路後已經超過面試時間了，只好放棄了這個面試機會。"/>
       </div>
@@ -79,7 +79,7 @@ export class Step09 extends Component {
 export class Step10 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(0)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(63)} className="bg step9 h-100 d-flex animated fadeIn">
       <BubbleText 
         text="你把手機轉來轉去，繞了好大一圈，才發現天都暗了，你深深的覺得自己是智障，絕望的回家了。"/>
       </div>
@@ -90,7 +90,7 @@ export class Step10 extends Component {
 export class Step11 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(12)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(12)} className="bg step6 h-100 d-flex animated fadeIn">
       <BubbleText 
         text="雖然浪費了一點時間繞路，但你順利的找到了車庫，也順利連絡上了三滴人的HR。"/>
       </div>
@@ -122,7 +122,7 @@ export class Step14 extends Component {
 export class Step15 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(24)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(24)} className="bg step10 h-100 d-flex animated fadeIn">
       <BubbleText 
         text="你拿起包包匆匆忙忙地離開了，你被嚇得半死，決定再也不來這裡找工作了。"/>
       </div>
@@ -144,9 +144,9 @@ export class Step16 extends Component {
 export class Step17 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(52)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(52)} className="bg step10 h-100 d-flex animated fadeIn">
       <BubbleText 
-        text="你們愉快的結束了談話，離開"/>
+        text="你愉快的離開了車庫，今天的面試讓你印象深刻，不知道到底能不能被錄取呢?"/>
       </div>
     );
   }
