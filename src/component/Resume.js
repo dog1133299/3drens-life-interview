@@ -29,7 +29,7 @@ class Resume extends Component {
                 <tr>
                   <td rowSpan="2">姓名:</td>
                   <td colSpan="2" rowSpan="2">
-                  <input placeholder='余大便' name="name" className="p-1 m-1" onChange={this.handleChange} autoFocus/>
+                  <input placeholder='Ex: 余大便' name="name" className="p-1 m-1" onChange={this.handleChange} />
                   </td>
                   <td colSpan="2">性別</td>
                 </tr>
@@ -57,15 +57,15 @@ class Resume extends Component {
                 <tr>
                   <td>技能專長</td>
                   <td colSpan="4">
-                  &nbsp;1) <input placeholder='噗噗' name="skill_1" className="m-1 p-1" onChange={this.handleChange}/><br/>
-                  &nbsp;2) <input placeholder='大便' name="skill_2" className="m-1 p-1" onChange={this.handleChange}/><br/>
-                  &nbsp;3) <input placeholder='吃大便' name="skill_3" className="m-1 p-1" onChange={this.handleChange}/><br/>
+                  &nbsp;1) <input placeholder='Ex: 噗噗' name="skill_1" className="m-1 p-1" onChange={this.handleChange}/><br/>
+                  &nbsp;2) <input placeholder='Ex: 大便' name="skill_2" className="m-1 p-1" onChange={this.handleChange}/><br/>
+                  &nbsp;3) <input placeholder='Ex: 吃大便' name="skill_3" className="m-1 p-1" onChange={this.handleChange}/><br/>
                   </td>
                 </tr>
                 <tr>
                   <td>備註</td>
                   <td colSpan="4">
-                    <input placeholder='我好慌啊' name="description" className="w-75 m-1 p-1" onChange={this.handleChange}/>
+                    <input placeholder='Ex: 我好慌啊' name="description" className="w-75 m-1 p-1" onChange={this.handleChange}/>
                   </td>
                 </tr>
               </tbody>

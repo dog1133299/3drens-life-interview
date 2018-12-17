@@ -175,10 +175,9 @@ export class Step19 extends Component {
   }
   render() {
     return (
-      <div onClick={this.handleClick} className="bg step7 h-100 d-flex justify-content-center align-items-center animated fadeIn">
+      <div onClick={this.handleClick} className="bg h-100 d-flex justify-content-center align-items-center animated fadeIn">
       <div className="text-center">
-      <i className="fa fa-envelope-o fa-5x ruby-text-yellow-hover-1  pointer">
-      </i>
+      <img src="img/mail.png" className="animated pulse infinite" alt="img"/>
       <h2 className="paw-shadow"><b>郵件來了!</b></h2>
       </div>
       </div>
@@ -206,10 +205,56 @@ export class Step21 extends Component {
 export class Step22 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(62)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
-      <div className="text-center animated zoomIn">
-       恭喜!!!!!!!!!!
+      <div onClick={()=>this.props.setStep(57)} className="bg step19 h-100  animated zoomIn">
       </div>
+    );
+  }
+}
+
+
+export class Step23 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(58)} className="bg step20 h-100 d-flex">
+      <BubbleText text="啥....?"/>
+      </div>
+    );
+  }
+}
+
+export class Step24 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(59)} className="bg step21 h-100 d-flex">
+      <BubbleText text="....啥奇怪的影片..."/>
+      </div>
+    );
+  }
+}
+
+export class Step25 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(60)} className="bg step22 h-100 d-flex">
+      <BubbleText text="..........????"/>
+      </div>
+    );
+  }
+}
+
+export class Step26 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(61)} className="bg step23 h-100">
+      </div>
+    );
+  }
+}
+
+export class Step27 extends Component {
+  render() {
+    return (
+      <div onClick={()=>this.props.setStep(62)} className="bg step24 h-100  animated zoomIn">
       </div>
     );
   }

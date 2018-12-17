@@ -20,6 +20,11 @@ import {
   Step20,
   Step21,
   Step22,
+  Step23,
+  Step24,
+  Step25,
+  Step26,
+  Step27,
 } from '../component/step/TextStep';
 import Resume from '../component/Resume';
 import { Exam1, Exam2, Exam3, Exam4, Exam5 } from '../component/Test.js';
@@ -172,10 +177,15 @@ class Route extends Component {
       case 56: //隱藏結局..(恭喜你!!!)
         return <Step22 setStep={this.props.setStep}/>;
       case 57: //隱藏結局..(影片?)
+        return <Step23 setStep={this.props.setStep}/>;
       case 58: //隱藏結局1打打
+        return <Step24 setStep={this.props.setStep}/>;
       case 59: //隱藏結局2解咪
+        return <Step25 setStep={this.props.setStep}/>;
       case 60: //隱藏結局31OEO
+        return <Step26 setStep={this.props.setStep}/>;
       case 61: //隱藏結局3人
+        return <Step27 setStep={this.props.setStep}/>;
       case 62: //通關成功 準備上班囉!
         return <GoodEnd setStep={this.props.setStep}/>;
       case 63: //通關失敗 再回去逛逛103吧

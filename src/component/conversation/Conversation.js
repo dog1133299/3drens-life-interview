@@ -148,7 +148,7 @@ export class Conversation10 extends Component {
         <div>
           <img src="img/oeo02.png" className="character slideInLeft animated"/>
           <Conversation
-            text={'很高興認識你，我們是一間那個連網的公司，專注於那個出行，.......(以下省略三千字)'}
+            text={'很高興認識你，我們是一間那個連網的公司，專注於那個出行，.......[以下省略三千字]'}
           />
         </div>
       </div>

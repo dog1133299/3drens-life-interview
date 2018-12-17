@@ -10,7 +10,7 @@ class Container extends Component {
     this.calculate = this.calculate.bind(this);
     this.ending = this.ending.bind(this);
     this.state = {
-      step: 53,
+      step: 0,
       score: 25,
       hp: 0,
       name: '大便',
@@ -29,16 +29,12 @@ class Container extends Component {
     }
   }
   setStep(i) {
-    console.log(i);
     this.setState({ step: i });
   }
   setScore(i) {
-    console.log(i);
     this.setState({ score: this.state.score + i });
-    console.log(this.state.score);
   }
   setResume(table) {
-    console.log(table);
     for (var i in table) {
       if (table[i]) {
         this.setState({
@@ -46,11 +42,9 @@ class Container extends Component {
       }
     }
     this.setState({ step: 5 });
-    console.log(this.state);
   }
   setAnswer(i, answer) {
     this.exam[i].user=answer;
-    console.log(this.exam);
   }
   calculate(){
     var score=0
@@ -70,7 +64,9 @@ class Container extends Component {
       }
     }
     this.setState({ score: this.state.score + score });
-    console.log(score);
+  }
+  componentDidUpdate(prevProps){
+    console.log(prevProps);
   }
   render() {
     return (
