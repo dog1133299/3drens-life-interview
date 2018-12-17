@@ -20,7 +20,7 @@ export class Conversation01 extends Component {
 export class Conversation02 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(16)}>
+      <div className="bg step12 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(16)}>
         <div>
           <img src="img/cd02.png" className="character slideInLeft animated"/>
           <Conversation
@@ -36,7 +36,7 @@ export class Conversation02 extends Component {
 export class Conversation03 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(17)}>
+      <div className="bg step13 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(17)}>
         <div>
           <img src="img/cd03.png" className="character"/>
           <Conversation
@@ -55,7 +55,7 @@ export class Conversation04 extends Component {
   }
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(23)}>
+      <div className="bg step13 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(23)}>
         <div>
           <img src="img/cd02.png" className="character slideInLeft animated"/>
           <Conversation
@@ -70,7 +70,7 @@ export class Conversation04 extends Component {
 export class Conversation05 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(25)}>
+      <div className="bg step12 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(25)}>
         <div>
           <img src="img/3drens01.png" className="character slideInRight animated"/>
           <Conversation
@@ -85,7 +85,7 @@ export class Conversation05 extends Component {
 export class Conversation06 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(26)}>
+      <div className="bg step14 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(26)}>
         <div>
           <img src="img/oeo01.png" className="character slideInLeft animated"/>
           <Conversation
@@ -99,7 +99,7 @@ export class Conversation06 extends Component {
 export class Conversation07 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(27)}>
+      <div className="bg step15 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(27)}>
         <div>
           <img src="img/cd04.png" className="character slideInLeft animated"/>
           <Conversation
@@ -113,7 +113,7 @@ export class Conversation07 extends Component {
 export class Conversation08 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(28)}>
+      <div className="bg step16 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(28)}>
         <div>
           <img src="img/jammy02.png" className="character slideInLeft animated"/>
           <Conversation
@@ -129,7 +129,7 @@ export class Conversation08 extends Component {
 export class Conversation09 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(32)}>
+      <div className="bg step14 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(32)}>
         <div>
           <img src="img/oeo03.png" className="character slideInLeft animated"/>
           <Conversation
@@ -144,7 +144,7 @@ export class Conversation09 extends Component {
 export class Conversation10 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(32)}>
+      <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(32)}>
         <div>
           <img src="img/oeo02.png" className="character slideInLeft animated"/>
           <Conversation
@@ -160,7 +160,7 @@ export class Conversation10 extends Component {
 export class Conversation11 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(33)}>
+      <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(33)}>
         <div>
           <img src="img/oeo05.png" className="character"/>
           <Conversation
@@ -175,7 +175,7 @@ export class Conversation11 extends Component {
 export class Conversation12 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(35)}>
+      <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(35)}>
         <div>
           <img src="img/oeo04.png" className="character"/>
           <Conversation
@@ -201,7 +201,7 @@ export class Conversation13 extends Component {
   render() {
 
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(36)}>
+      <div className="bg step16 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(36)}>
         <div>
           <img src="img/jammy03.png" className="character slideInLeft animated"/>
           <Conversation
@@ -216,7 +216,7 @@ export class Conversation13 extends Component {
 export class Conversation14 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(38)}>
+      <div className="bg step16 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(38)}>
         <div>
           <img src="img/jammy04.png" className="character"/>
           <Conversation
@@ -231,7 +231,7 @@ export class Conversation14 extends Component {
 export class Conversation15 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(39)}>
+      <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(39)}>
         <div>
           <img src="img/cd01.png" className="character slideInLeft animated"/>
           <Conversation
@@ -246,7 +246,7 @@ export class Conversation15 extends Component {
 export class Conversation16 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(40)}>
+      <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(40)}>
         <div>
           <img src="img/cd05.png" className="character"/>
           <Conversation
@@ -261,7 +261,7 @@ export class Conversation16 extends Component {
 export class Conversation17 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(42)}>
+      <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(42)}>
         <div>
           <img src="img/cd04.png" className="character"/>
           <Conversation
@@ -275,7 +275,7 @@ export class Conversation17 extends Component {
 export class Conversation18 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(45)}>
+      <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(45)}>
         <div>
           <img src="img/oeo06.png" className="character slideInLeft animated"/>
           <Conversation
@@ -289,7 +289,7 @@ export class Conversation18 extends Component {
 export class Conversation19 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(47)}>
+      <div className="bg step16 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(47)}>
         <div>
           <img src="img/jammy05.png" className="character slideInLeft animated"/>
           <Conversation
@@ -304,7 +304,7 @@ export class Conversation19 extends Component {
 export class Conversation20 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(48)}>
+      <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(48)}>
         <div>
           <img src="img/cd01.png" className="character slideInLeft animated"/>
           <Conversation
@@ -318,7 +318,7 @@ export class Conversation20 extends Component {
 export class Conversation21 extends Component {
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(50)}>
+      <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(50)}>
         <div>
           <img src="img/cd06.png" className="character slideInLeft animated"/>
           <Conversation

@@ -10,7 +10,7 @@ class Container extends Component {
     this.calculate = this.calculate.bind(this);
     this.ending = this.ending.bind(this);
     this.state = {
-      step: 25,
+      step: 53,
       score: 25,
       hp: 0,
       name: '大便',

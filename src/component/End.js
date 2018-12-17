@@ -7,11 +7,7 @@ export class GoodEnd extends Component {
 	      <div className="d-flex justify-content-center h-50">
 	        <img src="img/main.png" className="img-fluid align-self-end animated bounceInDown"/>
 	      </div>
-	        <div>
-	        <button onClick={()=>this.props.setStep(0)} className="w-75 btn btn-danger animated pulse infinite slow">
-	        成功通關!!
-	        </button>
-      	</div>
+	        <img src="img/end2.png" onClick={()=>this.props.setStep(0)} className="img-fluid align-self-end animated pulse infinite"/>
       </div>
     );
   }
@@ -25,13 +21,8 @@ export class BadEnd extends Component {
 	      <div className="d-flex justify-content-center h-50">
 	        <img src="img/main.png" className="img-fluid align-self-end animated bounceInDown"/>
 	      </div>
-	        <div>
-	        <button onClick={()=>this.props.setStep(0)} className="w-75 btn btn-danger animated pulse infinite slow">
-	        很遺憾
-	        </button>
-      	</div>
+	      <img src="img/end1.png" onClick={()=>this.props.setStep(0)} className="img-fluid align-self-end animated pulse infinite"/>
       </div>
     );
   }
 }
-

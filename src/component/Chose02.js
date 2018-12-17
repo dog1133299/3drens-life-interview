@@ -19,7 +19,7 @@ class Chose02 extends Component {
   }
   render() {
     return (
-      <div className="bg step1 h-100 d-flex justify-content-center align-items-center">
+      <div className="bg step11 h-100 d-flex justify-content-center align-items-center">
           <div>
           <h2 className="text-center title">你決定....</h2>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle1}>

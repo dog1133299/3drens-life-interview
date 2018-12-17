@@ -100,7 +100,7 @@ export class Step11 extends Component {
 export class Step13 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(14)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(14)} className="bg step11 h-100 d-flex animated fadeIn">
       <BubbleText 
         text="等待的時間裡，你有點緊張，你決定做點什麼舒緩壓力?"/>
       </div>
@@ -111,7 +111,7 @@ export class Step13 extends Component {
 export class Step14 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(24)} className="bg step1 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(24)} className="bg step12 h-100 d-flex animated fadeIn">
       <BubbleText 
         text="打打看完你的考券，轉身出去，過了一會兒，三個奇怪的人進來了。"/>
       </div>
@@ -122,7 +122,7 @@ export class Step14 extends Component {
 export class Step15 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(24)} className="bg step10 h-100 d-flex animated fadeIn">
+      <div onClick={()=>this.props.setStep(63)} className="bg step10 h-100 d-flex animated fadeIn">
       <BubbleText 
         text="你拿起包包匆匆忙忙地離開了，你被嚇得半死，決定再也不來這裡找工作了。"/>
       </div>
@@ -167,7 +167,7 @@ export class Step19 extends Component {
   handleClick=()=>{
     if (this.props.score>=95) {
       this.props.setStep(56);
-    }else if(this.props.score>=70){
+    }else if(this.props.score>=75){
       this.props.setStep(55);
     }else{
       this.props.setStep(54);
@@ -175,11 +175,11 @@ export class Step19 extends Component {
   }
   render() {
     return (
-      <div onClick={this.handleClick} className="bg step1 h-100 d-flex justify-content-center align-items-center animated fadeIn">
+      <div onClick={this.handleClick} className="bg step7 h-100 d-flex justify-content-center align-items-center animated fadeIn">
       <div className="text-center">
       <i className="fa fa-envelope-o fa-5x ruby-text-yellow-hover-1  pointer">
       </i>
-      <h1>你收到了來自三滴人的郵件!</h1>
+      <h2 className="paw-shadow"><b>郵件來了!</b></h2>
       </div>
       </div>
     );
@@ -189,10 +189,7 @@ export class Step19 extends Component {
 export class Step20 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(63)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
-      <div className="text-center animated zoomIn">
-       jcp3u黑遺憾你錄取
-      </div>
+      <div onClick={()=>this.props.setStep(63)} className="bg step17 h-100 animated zoomIn">
       </div>
     );
   }
@@ -201,10 +198,7 @@ export class Step20 extends Component {
 export class Step21 extends Component {
   render() {
     return (
-      <div onClick={()=>this.props.setStep(62)} className="bg step1 h-100 d-flex justify-content-center align-items-center">
-      <div className="text-center animated zoomIn">
-       j恭喜你錄取
-      </div>
+      <div onClick={()=>this.props.setStep(62)} className="bg step18 h-100 animated zoomIn">
       </div>
     );
   }
