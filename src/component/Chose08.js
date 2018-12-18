@@ -23,16 +23,16 @@ class Chose08 extends Component {
           <div>
           <h2 className="text-center title">那個...</h2>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle1}>
-            <i className="fa fa-envelope-o"/>&nbsp;沒有什麼意思
+            <i className="fa fa-hand-spock-o"/>&nbsp;沒有什麼意思
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle2}>
-            <i className="fa fa-map-o"/>&nbsp;字面上的意思
+            <i className="fa fa-hand-lizard-o"/>&nbsp;字面上的意思
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle3}>
-            <i className="fa fa-male"/>&nbsp;你知道的太多了
+            <i className="fa fa-hand-pointer-o"/>&nbsp;你知道的太多了
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle4}>
-            <i className="fa fa-id-badge"/>&nbsp;就是那個意思
+            <i className="fa fa-hand-peace-o"/>&nbsp;就是那個意思
             </button>
           </div>
       </div>

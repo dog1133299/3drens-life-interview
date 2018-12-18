@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BubbleText,Conversation} from '../BubbleText.js'
+import {BubbleText} from '../BubbleText.js'
 
 export class Step01 extends Component {
   render() {
@@ -177,7 +177,7 @@ export class Step19 extends Component {
     return (
       <div onClick={this.handleClick} className="bg h-100 d-flex justify-content-center align-items-center animated fadeIn">
       <div className="text-center">
-      <img src="img/mail.png" className="animated pulse infinite" alt="img"/>
+      <img src="img/mail.webp" className="animated pulse infinite" alt="img"/>
       <h2 className="paw-shadow"><b>郵件來了!</b></h2>
       </div>
       </div>

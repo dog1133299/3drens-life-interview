@@ -6,7 +6,7 @@ export class Conversation01 extends Component {
     return (
       <div className="bg step6 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(13)}>
         <div>
-          <img src="img/jammy01.png" className="character slideInLeft animated"/>
+          <img src="img/jammy01.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'哈囉'+this.props.name+'你來了，我是解咪，麻煩妳先在會議室等我們一下吧!'}
           />
@@ -22,7 +22,7 @@ export class Conversation02 extends Component {
     return (
       <div className="bg step12 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(16)}>
         <div>
-          <img src="img/cd02.png" className="character slideInLeft animated"/>
+          <img src="img/cd02.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'.......................(好像有人透過玻璃在偷看你)。'}
           />
@@ -38,7 +38,7 @@ export class Conversation03 extends Component {
     return (
       <div className="bg step13 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(17)}>
         <div>
-          <img src="img/cd03.png" className="character"/>
+          <img src="img/cd03.webp" className="character" alt="img"/>
           <Conversation
             text={'哈囉'+this.props.name+'，我是打打，這裡有一份題目，可能要麻煩妳先寫一下。'}
           />
@@ -57,7 +57,7 @@ export class Conversation04 extends Component {
     return (
       <div className="bg step13 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(23)}>
         <div>
-          <img src="img/cd02.png" className="character slideInLeft animated"/>
+          <img src="img/cd02.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'嗯....好的，我大概了解了。'}
           />
@@ -72,7 +72,7 @@ export class Conversation05 extends Component {
     return (
       <div className="bg step12 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(25)}>
         <div>
-          <img src="img/3drens01.png" className="character slideInRight animated"/>
+          <img src="img/3drens01.webp" className="character slideInRight animated" alt="img"/>
           <Conversation
             text={'哈囉~~~'+this.props.name}
           />
@@ -87,7 +87,7 @@ export class Conversation06 extends Component {
     return (
       <div className="bg step14 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(26)}>
         <div>
-          <img src="img/oeo01.png" className="character slideInLeft animated"/>
+          <img src="img/oeo01.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'嗨'+this.props.name+'，我是喔唷，是三維人的膝一喔，主要負責跟學長說你好，還有台上台下打招呼的部分。'}
           />
@@ -101,7 +101,7 @@ export class Conversation07 extends Component {
     return (
       <div className="bg step15 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(27)}>
         <div>
-          <img src="img/cd04.png" className="character slideInLeft animated"/>
+          <img src="img/cd04.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'嗨嗨'+this.props.name+'，剛剛打過招呼了，我是打打，是膝踢喔，主要負責耕田，還有模仿客戶。'}
           />
@@ -115,7 +115,7 @@ export class Conversation08 extends Component {
     return (
       <div className="bg step16 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(28)}>
         <div>
-          <img src="img/jammy02.png" className="character slideInLeft animated"/>
+          <img src="img/jammy02.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'我是解咪，是膝膝喔，負責發香蕉還有滴滴你我他，有機會的話，你以後吃的都是我發的香蕉。'}
           />
@@ -131,7 +131,7 @@ export class Conversation09 extends Component {
     return (
       <div className="bg step14 h-100 d-flex justify-content-center align-items-end animated fadeIn" onClick={()=>this.props.setStep(32)}>
         <div>
-          <img src="img/oeo03.png" className="character slideInLeft animated"/>
+          <img src="img/oeo03.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'不要這樣，我們是一間那個連網的公司，專注於那個出行，.......'}
           />
@@ -146,9 +146,9 @@ export class Conversation10 extends Component {
     return (
       <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(32)}>
         <div>
-          <img src="img/oeo02.png" className="character slideInLeft animated"/>
+          <img src="img/oeo02.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
-            text={'很高興認識你，我們是一間那個連網的公司，專注於那個出行，.......[以下省略三千字]'}
+            text={'很高興認識你，我們是一間那個連網的公司，專注於那個出行，.......以下省略三千字'}
           />
         </div>
       </div>
@@ -162,7 +162,7 @@ export class Conversation11 extends Component {
     return (
       <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(33)}>
         <div>
-          <img src="img/oeo05.png" className="character"/>
+          <img src="img/oeo05.webp" className="character" alt="img"/>
           <Conversation
             text={'那既然你來應徵前端工作，你對那個有什麼想法嗎?'}
           />
@@ -177,7 +177,7 @@ export class Conversation12 extends Component {
     return (
       <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(35)}>
         <div>
-          <img src="img/oeo04.png" className="character"/>
+          <img src="img/oeo04.webp" className="character" alt="img"/>
           <Conversation
             text={'嗯....我了解了。解咪?'}
           />
@@ -203,7 +203,7 @@ export class Conversation13 extends Component {
     return (
       <div className="bg step16 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(36)}>
         <div>
-          <img src="img/jammy03.png" className="character slideInLeft animated"/>
+          <img src="img/jammy03.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={ this.props.gender==0?'嗯我想想，女生啊...':'嗯我想想，男生啊...' +'，那你知道 劈哩巴拉崩 嗎?'}
           />
@@ -218,7 +218,7 @@ export class Conversation14 extends Component {
     return (
       <div className="bg step16 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(38)}>
         <div>
-          <img src="img/jammy04.png" className="character"/>
+          <img src="img/jammy04.webp" className="character" alt="img"/>
           <Conversation
             text={'沒事，我覺得你跟他長得很像，打打，你還有問題嗎?'}
           />
@@ -233,7 +233,7 @@ export class Conversation15 extends Component {
     return (
       <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(39)}>
         <div>
-          <img src="img/cd01.png" className="character slideInLeft animated"/>
+          <img src="img/cd01.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'我看看喔，你的專長是'+this.props.skill_1+'、'+this.props.skill_2+'、'+this.props.skill_3+'?'}
           />
@@ -248,7 +248,7 @@ export class Conversation16 extends Component {
     return (
       <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(40)}>
         <div>
-          <img src="img/cd05.png" className="character"/>
+          <img src="img/cd05.webp" className="character" alt="img"/>
           <Conversation
             text={'那你對耕田有什麼想法嗎?'}
           />
@@ -263,7 +263,7 @@ export class Conversation17 extends Component {
     return (
       <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(42)}>
         <div>
-          <img src="img/cd04.png" className="character"/>
+          <img src="img/cd04.webp" className="character" alt="img"/>
           <Conversation
             text={'嗯嗯，很好。'}
           />
@@ -277,7 +277,7 @@ export class Conversation18 extends Component {
     return (
       <div className="bg step14 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(45)}>
         <div>
-          <img src="img/oeo06.png" className="character slideInLeft animated"/>
+          <img src="img/oeo06.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'今天跟你聊得很愉快，最後你還有什麼問題嗎?'}
           />
@@ -291,7 +291,7 @@ export class Conversation19 extends Component {
     return (
       <div className="bg step16 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(47)}>
         <div>
-          <img src="img/jammy05.png" className="character slideInLeft animated"/>
+          <img src="img/jammy05.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={"........ It's a Good question. 我們會在會後在寄信給你的。"}
           />
@@ -306,7 +306,7 @@ export class Conversation20 extends Component {
     return (
       <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(48)}>
         <div>
-          <img src="img/cd01.png" className="character slideInLeft animated"/>
+          <img src="img/cd01.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={"對了，你履歷裡提到"+this.props.description+', 這是什麼意思?'}
           />
@@ -320,7 +320,7 @@ export class Conversation21 extends Component {
     return (
       <div className="bg step15 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(50)}>
         <div>
-          <img src="img/cd06.png" className="character slideInLeft animated"/>
+          <img src="img/cd06.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'了解，今天真的很謝謝你，'+this.props.name+'。'}
           />
@@ -334,7 +334,7 @@ export class Conversation22 extends Component {
     return (
       <div className="bg step6 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(51)}>
         <div>
-          <img src="img/jammy01.png" className="character slideInLeft animated"/>
+          <img src="img/jammy01.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'如果沒有意外的話，這兩周內我們會再寄通知信給你。'}
           />
@@ -348,7 +348,7 @@ export class Conversation23 extends Component {
     return (
       <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(48)}>
         <div>
-          <img src="img/cd01.png" className="character slideInLeft animated"/>
+          <img src="img/cd01.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'了解，今天真的很謝謝你，'+this.props.name+'。'}
           />
@@ -362,7 +362,7 @@ export class Conversation24 extends Component {
     return (
       <div className="bg step1 h-100 d-flex justify-content-center align-items-end" onClick={()=>this.props.setStep(48)}>
         <div>
-          <img src="img/cd01.png" className="character slideInLeft animated"/>
+          <img src="img/cd01.webp" className="character slideInLeft animated" alt="img"/>
           <Conversation
             text={'了解，今天真的很謝謝你，'+this.props.name+'。'}
           />

@@ -190,10 +190,10 @@ class Route extends Component {
         return <GoodEnd setStep={this.props.setStep}/>;
       case 63: //通關失敗 再回去逛逛103吧
         return <BadEnd setStep={this.props.setStep}/>;
-
+      default:
     }
     return (
-      <Start setStep={this.props.setStep}/>
+      <Start setStep={this.props.setStep} init={this.props.init}/>
     );
   }
 }

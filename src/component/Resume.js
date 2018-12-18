@@ -13,7 +13,6 @@ class Resume extends Component {
     }
   }
   handleChange=(e)=>{
-    console.log(e.target.value);
     this.table[e.target.name]=e.target.value;
   }
   render() {

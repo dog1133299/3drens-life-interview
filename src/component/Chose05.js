@@ -23,16 +23,16 @@ class Chose05 extends Component {
           <div>
           <h2 className="text-center title">劈哩巴拉崩</h2>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle1}>
-            <i className="fa fa-envelope-o"/>&nbsp;是誰?
+            <i className="fa fa-question"/>&nbsp;是誰?
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle2}>
-            <i className="fa fa-map-o"/>&nbsp;是一個藝人?
+            <i className="fa fa-star-o"/>&nbsp;是一個藝人?
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle3}>
-            <i className="fa fa-male"/>&nbsp;是一個小模?
+            <i className="fa fa-venus"/>&nbsp;是一個小模?
             </button>
             <button className="mt-4 mx-auto btn btn-danger animated bounceIn d-block w-100" onClick={this.handle4}>
-            <i className="fa fa-id-badge"/>&nbsp;是一個youtuber?
+            <i className="fa fa-youtube"/>&nbsp;是一個youtuber?
             </button>
           </div>
       </div>

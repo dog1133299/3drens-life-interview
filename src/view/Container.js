@@ -9,6 +9,7 @@ class Container extends Component {
     this.setAnswer = this.setAnswer.bind(this);
     this.calculate = this.calculate.bind(this);
     this.ending = this.ending.bind(this);
+    this.init = this.init.bind(this);
     this.state = {
       step: 0,
       score: 25,
@@ -20,6 +21,24 @@ class Container extends Component {
       skill_3: '吃大便',
       description: '我好慌啊',
     }
+    this.exam = {
+      1: { answer: 3, user: '' },
+      2: { answer: 2, user: '' },
+      3: { answer: 2, user: '' },
+      4: { answer: 3, user: '' },
+      5: { answer: 1, user: '' },
+    }
+  }
+  init() {
+    this.setState({
+      score: 25,
+      hp: 0,
+      name: '大便',
+      gender: 1,
+      skill_1: '噗噗',
+      skill_2: '大便',
+      skill_3: '吃大便',
+      description: '我好慌啊', });
     this.exam = {
       1: { answer: 3, user: '' },
       2: { answer: 2, user: '' },
@@ -54,7 +73,6 @@ class Container extends Component {
       }
     }
     this.setState({ score: this.state.score + score });
-    console.log(score);
   }
   ending(){
     var score=0
@@ -65,13 +83,11 @@ class Container extends Component {
     }
     this.setState({ score: this.state.score + score });
   }
-  componentDidUpdate(prevProps){
-    console.log(prevProps);
-  }
   render() {
     return (
       <div className="body">
         <Route 
+        init={this.init}
         score={this.state.score}
         step={this.state.step}
         name={this.state.name}
