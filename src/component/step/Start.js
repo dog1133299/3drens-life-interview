@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Start extends Component {
   componentDidMount(){
     this.props.init();
+    window.scrollTo(0,0);
   }
   render() {
     return (
