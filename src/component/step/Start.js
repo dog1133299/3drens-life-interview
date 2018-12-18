@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class Start extends Component {
   componentDidMount(){
     this.props.init();
-    window.scrollTo(0,0);
+    console.log(document.body.scrollHeight);
+    window.scrollTo(0,document.body.scrollHeight);
   }
   render() {
     return (
